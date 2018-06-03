@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <corners android:topRightRadius="@dimen/y33" android:bottomRightRadius="@dimen/y33"/>
+        <size android:height="@dimen/y66"/>
+        <solid android:color="@color/date_duration_bg"/>
+</shape>

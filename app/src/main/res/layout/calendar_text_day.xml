@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.df.dfcalendar.widget.CalendarDayRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y66"
+    android:gravity="center"
+    android:id="@+id/calendar_day_rl"
+    android:layout_marginTop="@dimen/y7"
+    android:layout_marginBottom="@dimen/y7"
+    >
+
+    <com.df.dfcalendar.widget.CalendarDayTextView
+        android:id="@+id/calendar_day_tv"
+        android:layout_width="@dimen/y66"
+        android:layout_height="@dimen/y66"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="31"
+        android:includeFontPadding="false"
+        android:textSize="@dimen/text_size_18"></com.df.dfcalendar.widget.CalendarDayTextView>
+</com.df.dfcalendar.widget.CalendarDayRelativeLayout>

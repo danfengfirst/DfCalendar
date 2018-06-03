@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyCalendar">
+        <attr name="dateformat" format="string"></attr>
+        <attr name="titleSize" format="dimension"></attr>
+        <attr name="titleColor" format="color"></attr>
+        <attr name="goIcon" format="reference"></attr>
+        <attr name="preIcon" format="reference"></attr>
+        <attr name="dayInMonthColor" format="color"></attr>
+        <attr name="dayOutMonthcolor" format="color"></attr>
+        <attr name="todayColor" format="color"></attr>
+        <attr name="todayEmptycircleColor" format="color"></attr>
+        <attr name="todayFillcircleColor" format="color"></attr>
+        <attr name="calendarbackground" format="color|reference"></attr>
+    </declare-styleable>
+</resources>

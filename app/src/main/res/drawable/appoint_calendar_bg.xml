@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/appoint_calender_bg_start" android:angle="270"
+        android:endColor="@color/appoint_calender_bg_end"
+        />
+    <size android:width="@dimen/x750" android:height="@dimen/y747"/>
+</shape>

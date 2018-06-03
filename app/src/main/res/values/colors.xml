@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent40_white">#66ffffff</color>
+    <color name="transparent80_white">#CCffffff</color>
+    <!--日历-->
+    <color name="appoint_calender_bg_start">#FF25A4CE</color>
+    <color name="appoint_calender_bg_end">#FF55CACE</color>
+    <color name="date_today">#FFFFF95B</color>
+    <color name="date_time_bg">#FFC3F5F5</color>
+    <color name="date_time_tv">#FF1AA5C0</color>
+    <color name="date_duration_bg">#FF27A5BE</color>
+</resources>

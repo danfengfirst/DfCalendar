@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.df.dfcalendar.MainActivity">
+
+    <com.df.dfcalendar.widget.CalendarView
+        android:id="@+id/appoint_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/appoint_calendar_bg"
+        >
+    </com.df.dfcalendar.widget.CalendarView>
+
+</LinearLayout>
