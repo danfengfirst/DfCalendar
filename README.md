@@ -17,17 +17,19 @@
 
 <font color=#00f>ps：定制版控件，只适合用来学习思路，如果要用到你自己的项目，还是需要修改的。</font>
 
-#csdn 地址
+
+# csdn 地址
 https://blog.csdn.net/danfengw/article/details/80556062
 
-#代码思路
+
+# 代码思路
 1、recyclerview嵌套，设置日期
 
 2、继承textview自定义textview，主要用于修改开始日期与结束日期的圆形背景
 
 3、继承relativelayout自定义relativelayout，主要用于设置被选中日期的中间时间段。
 
-##1、CalendarView
+## 1、CalendarView
 (0)初始化布局
 ```
  private void bindView(Context context) {
@@ -397,7 +399,8 @@ SubRvAdapter 需要的对应的布局
 </com.df.dfcalendar.widget.CalendarDayRelativeLayout>
 
 ```
-##2、CalendarDayTextView
+## 2、CalendarDayTextView
+
 其实这里画笔只需要一个因为开始时间与结束时间样式一样，但是最开始的时候设计的是颜色不一样，所以就写了2个画笔
 ```
 public class CalendarDayTextView extends android.support.v7.widget.AppCompatTextView {
@@ -488,7 +491,7 @@ public class CalendarDayTextView extends android.support.v7.widget.AppCompatText
 
 }
 ```
-##3.CalendarDayRelativeLayout 
+## 3.CalendarDayRelativeLayout 
 自定义CalendarDayRelativeLayout，来设置不同背景：（1）长方形背景 (2)星期六（有半圆）(3)星期天(左半圆)
 ```
 public class CalendarDayRelativeLayout extends RelativeLayout {
